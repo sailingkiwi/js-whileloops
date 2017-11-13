@@ -103,7 +103,18 @@ devleague homie!
 ...
 ...*/
 
-
+var i = 0;
+while(i<=100){
+	i++;
+	if([i]%3===0){
+		console.log("dev");
+	}else if([i]%5===0){
+		console.log('league');
+	}else if([i]%3 ===0 && [i]%5 ===0){
+	}else{
+				console.log([i]);
+}
+}
 
 
 

@@ -49,10 +49,10 @@ while (i < 10){
 "I like to binge watch Keeping up with the Kardasians."*/
 
 var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking Dead", "Keeping Up with the Kardasians"];
-var i =0 ;
-while(i < tvShows.length){
-	i++;
+var i = 0;
+while(tvShows[i]){
 	console.log("I like to binge watch " + tvShows[i] + ".");
+	i++;
 }
 
 
@@ -68,7 +68,11 @@ while(i < tvShows.length){
 
 */
 
-
+var i = 0;
+while(i<9){
+	i++;
+	console.log([i] +" x 3 = " + (i*3));
+}
 
 
 
